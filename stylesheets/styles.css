@@ -253,3 +253,13 @@ footer {
     color:#444;
   }
 }
+
+/* CUSTOM */
+
+.subhead {
+font-size:12pt;
+font-weight:bold;
+}
+.titlehead {
+margin: 0 0 5px;
+}
