@@ -22,6 +22,9 @@ body {
 .header {
   text-align:center;
   margin: 20px 0 0 0;
+  -webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.25);
+  -moz-box-shadow:    0px 3px 5px rgba(50, 50, 50, 0.25);
+  box-shadow:         0px 3px 5px rgba(50, 50, 50, 0.25);
 }
 
 /*Inside container, used to keep each section internally to 960px*/
@@ -29,6 +32,7 @@ body {
   width: 960px;
   margin:0 auto;
   clear:both;
+
 }
 
 
@@ -38,7 +42,7 @@ body {
 }
 
 .nav-option {
-  width:25%;  
+  width:25%;
   clear:none;
   float:left;
   text-align:center;
@@ -46,10 +50,32 @@ body {
 
 
 /* main content */
-.main { 
+.main {
   background: #2bb33c;
+  z-index: -1;
+  position:relative;
+  -webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.25);
+  -moz-box-shadow:    0px 3px 5px rgba(50, 50, 50, 0.25);
+  box-shadow:         0px 3px 5px rgba(50, 50, 50, 0.25);
 }
 
+.threecolumn {
+  background: #e8352b;
+  z-index: -2;
+  position: relative;
+}
+
+/* Copy */
+
+.copy {
+  color:black;
+  padding: 10px 0;
+}
+
+.video {
+  float:left;
+  margin:18px;
+ }
 
 /*footer*/
 footer {
