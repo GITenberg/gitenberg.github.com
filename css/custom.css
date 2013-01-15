@@ -1,0 +1,59 @@
+/*Basic setups */
+
+/*Font*/
+body {
+  font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #777;
+  font-weight: 300;
+}
+
+/*full-width wrapper*/
+.wrapper {
+  width:100%;
+  margin:0 auto;
+}
+
+body {
+  margin:0px;
+}
+
+
+/*header*/
+.header {
+  text-align:center;
+  margin: 20px 0 0 0;
+}
+
+/*Inside container, used to keep each section internally to 960px*/
+.inside_container{
+  width: 960px;
+  margin:0 auto;
+  clear:both;
+}
+
+
+/*Navigation*/
+#nav {
+  height:60px;
+}
+
+.nav-option {
+  width:25%;  
+  clear:none;
+  float:left;
+  text-align:center;
+}
+
+
+/* main content */
+.main { 
+  background: #2bb33c;
+}
+
+
+/*footer*/
+footer {
+  width:960px;
+  text-align: center;
+  clear:both;
+}
