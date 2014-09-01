@@ -1,9 +1,11 @@
 Project Gitenberg FAQ
 =====================
 
+*Note: This FAQ is a work in progress. Please feel free to suggest or add changes!*
+
 ###Why are we putting books on Github?
 
-[start with more ideological response. description of how gitenberg will improve the books and access to them. rephrase bottom paragraph and move it up here.]
+*Start with more ideological response. Description of how gitenberg will improve the books and access to them. Rephrase bottom paragraph and move it up here.*
 
 Because GitHub hosts all of this for free. Also, because GitHub is more than just storage for git repos, it is also a social network for code. Lastly, we can use GitHub's API functionality for GITenberg, without having to reproduce it ourselves.
 
@@ -16,9 +18,9 @@ Also, putting GITenberg on GitHub means that it isn't owned by me. If someone wa
 The early versions of GITenberg are going to be mainly for developers, and for people who know how to use git and GitHub. But we hope that the results of our project can be used by anyone who wants quality ebooks for free.
 
 ###What can I do with these books?
-Anything you want, really! These books are in the [public domain](TODO link!). You may quote them, edit them, print them, sell them, or give them away in whole or in part. [Project Gutenberg](TODO link!) would appreciate a note saying they transcribed the book.
+Anything you want, really! These books are in the [public domain](https://en.wikipedia.org/wiki/Public_domain). You may quote them, edit them, print them, sell them, or give them away in whole or in part. [Project Gutenberg](http://www.gutenberg.org/) would appreciate a note saying they transcribed the book.
 
-[if possible, a link to nifty other projects that used public domain books, like free education or artistic projects, would be helpful]
+There are other nifty other projects that use public domain books. If you know of any (you may, as you're reading this), please let us know what they are so that we can link them here!
 
 ####Can I sell these books?
 
@@ -96,6 +98,4 @@ Good question.
 
 We need to make these books better, so finding errors [link to examples or another part of the faq] in books and reporting them link to how to report error is important.
 
-We need people to process and accept pull requests on books. The best way to do this is to join our [discussion mailing list](TODO Link!).
-
-Finally, you can join our [mailing list for announcements](TODO Link!). This way when we need help, we can ask.
+We need people to process and accept pull requests on books. The best way to do this, and to keep informed of the entire project, is to join our [mailing list](https://groups.google.com/forum/#!forum/gitenberg-project).
