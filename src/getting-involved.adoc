@@ -1,0 +1,23 @@
+= How to get involved in GITenberg
+
+:toc:
+
+== add books to GITenberg
+
+- books are stored as files in repos on github
+- fork a book from https://github.com/gitenberg/[gitenberg's github account]
+- There should be a text file in your copy of the repo that is the full text of the book
+  mark the start of chapters as on [documentation here] page
+
+== write CSS styles for books
+
+- When books are updated the asciidoc is converted into html
+- The html GITenberg uses follows the HTMLBook standard
+- CSS styles can be written for one book, and used on all HTMLBooks
+
+== code on gitenberg projects
+We have a variety of software projects, mainly in python and javascript.
+Here are links to the open issues marked as friendly to new contributors:
+
+- [python gitenberg repo issues]
+- [javascript cleanupjs repo issues]
