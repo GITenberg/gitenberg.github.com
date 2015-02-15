@@ -1,0 +1,18 @@
+
+== Markup converstion
+
+GITenberg books are generated from a canonical markup format.  That format is Asciidoc.  
+
+TIP: You might ask why not markdown.html[Markdown]
+
+== Target formats
+The primary html output of GITenberg books is in https://github.com/oreillymedia/HTMLBook/[HTMLBook] format.
+Using HTMLBook allows us to write CSS for one book, and use it on any other book.
+
+[line-through]*We package generated html as an epub, and convert that epub file to .mobi for kindle devices.*
+
+
+
+
+=== Asciidoc resources
+- https://github.com/dahu/vim-asciidoc[vim asciidoc plugin]
