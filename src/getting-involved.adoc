@@ -19,5 +19,7 @@
 We have a variety of software projects, mainly in python and javascript.
 Here are links to the open issues marked as friendly to new contributors:
 
-- [python gitenberg repo issues]
-- [javascript cleanupjs repo issues]
+- https://github.com/gitenberg-dev/GITenberg/issues[python gitenberg repo issues]
+- https://github.com/gitenberg-dev/scripts/issues[javascript cleanupjs repo issues]
+
+

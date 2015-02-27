@@ -5,7 +5,7 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.2">
-<title>How to get involved in GITenberg</title>
+<title>Markup converstion</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -411,69 +411,54 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>How to get involved in GITenberg</h1>
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_add_books_to_gitenberg">add books to GITenberg</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p>books are stored as files in repos on github</p>
-</li>
-<li>
-<p>fork a book from <a href="https://github.com/gitenberg/">gitenberg&#8217;s github account</a></p>
-</li>
-<li>
-<p>There should be a text file in your copy of the repo that is the full text of the book
-mark the start of chapters as on [documentation here] page</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_write_css_styles_for_books">write CSS styles for books</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p>When books are updated the asciidoc is converted into html</p>
-</li>
-<li>
-<p>The html GITenberg uses follows the HTMLBook standard</p>
-</li>
-<li>
-<p>CSS styles can be written for one book, and used on all HTMLBooks</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_code_on_gitenberg_projects">code on gitenberg projects</h2>
+<h2 id="_markup_converstion">Markup converstion</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>We have a variety of software projects, mainly in python and javascript.
-Here are links to the open issues marked as friendly to new contributors:</p>
+<p>GITenberg books are generated from a canonical markup format.  That format is Asciidoc.</p>
 </div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+You might ask why not markdown.html[Markdown]
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_target_formats">Target formats</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The primary html output of GITenberg books is in <a href="https://github.com/oreillymedia/HTMLBook/">HTMLBook</a> format.
+Using HTMLBook allows us to write CSS for one book, and use it on any other book.</p>
+</div>
+<div class="paragraph">
+<p><strong class="line-through">We package generated html as an epub, and convert that epub file to .mobi for kindle devices.</strong></p>
+</div>
+<div class="sect2">
+<h3 id="_asciidoc_resources">Asciidoc resources</h3>
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://github.com/gitenberg-dev/GITenberg/issues">python gitenberg repo issues</a></p>
-</li>
-<li>
-<p><a href="https://github.com/gitenberg-dev/scripts/issues">javascript cleanupjs repo issues</a></p>
+<p><a href="https://github.com/dahu/vim-asciidoc">vim asciidoc plugin</a></p>
 </li>
 </ul>
+</div>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2015-02-14 16:58:00 EST
+Last updated 2015-02-14 19:08:38 EST
 </div>
 </div>
 </body>
