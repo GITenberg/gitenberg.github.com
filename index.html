@@ -1,106 +1,57 @@
-<!doctype html>
-<html> 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>GITenberg.github.io by GITenberg</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GITenberg — Project Concluded</title>
+<!-- cc:2026.07.21 — tombstone draft for Eric/Raymond review; text based on ebookfoundation.org -->
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; max-width: 44rem;
+         margin: 0 auto; padding: 3rem 1.5rem; color: #2b2b2b; line-height: 1.65;
+         background: #fdfcf9; }
+  h1 { font-size: 1.9rem; font-weight: normal; border-bottom: 1px solid #c9c4b8;
+       padding-bottom: .6rem; }
+  .status { color: #6b6558; font-style: italic; margin-top: -0.5rem; }
+  a { color: #35597a; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #c9c4b8;
+           font-size: .85rem; color: #6b6558; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #191817; color: #d8d4cc; }
+    h1, footer { border-color: #45403a; }
+    .status, footer { color: #98917f; }
+    a { color: #7fa7cc; }
+  }
+</style>
+</head>
+<body>
+<h1>GITenberg</h1>
+<p class="status">2012 – 2026 · This project has concluded.</p>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <a href="http://gitenberg.github.io">
-          <h1 class="titlehead"><img src="/images/Gitenberg_full.png" alt="gitenberg"></h1>
-          <p>GITenberg.github.io</p>
-        </a>
+<p><strong>GITenberg</strong> was an exploration of how
+<a href="https://www.gutenberg.org/">Project Gutenberg</a> might take advantage of
+modern software engineering tools and workflows. It brought tens of thousands of
+public-domain books into <a href="https://github.com/GITenberg">version control on
+GitHub</a>, where they could be corrected, enriched, and rebuilt into modern ebook
+formats the way software is.</p>
 
-        <img src="./images/covers/the-star-lord.jpg" alt="Cover from 'The Star Lord' (1935)" />
-        <p class="view"><a href="https://github.com/GITenberg">View Our GitHub Profile</a></p>
-        <p class="view"><a href="https://twitter.com/gitenberg">Follow us on Twitter</a>
+<p>The experiment succeeded — and made itself unnecessary: its core technology and
+lessons now live on in the software infrastructure of Project Gutenberg itself,
+maintained by the <a href="https://ebookfoundation.org/">Free Ebook Foundation</a>.
+With that work upstreamed, the standalone GITenberg site has been retired.</p>
 
-      </header>
-      <section>
-        <!--<h3 class ="mainhead" id="welcome">Welcome to Project GITenberg</h3>-->
-        <h3 class="mainhead" id="welcome">$ git commit Alice-in-Wonderland.txt -m "Down the Rabbit Hole..."</h3>
+<p>What remains available:</p>
+<ul>
+  <li>The books themselves, at <a href="https://www.gutenberg.org/">Project Gutenberg</a></li>
+  <li>The <a href="https://github.com/GITenberg">GITenberg book repositories</a> on GitHub</li>
+  <li>The <a href="https://github.com/gitenberg-dev">gitenberg-dev tooling</a> that built them</li>
+</ul>
 
-         <p><b>Project GITenberg</b> is a <b>Free and Open</b>, <b>Collaborative</b>, <b>Trackable</b> and <b>Scriptable</b> digital library. It leverages the power of the <b>Git</b> version control system and the collaborative potential of <b><a href="http://www.github.com">GitHub</a></b> to make books more open.</p> 
-         <p>Currently there are <a href="http://github.com/GITenberg/">over 43,000 books</a> in GITenberg.</p>
+<p>Thank you to everyone who contributed books, code, and ideas.</p>
 
-
-        <h3 id="why">Why?</h3>
-
-        <p class ="subhead">-Free and Open</p>
-        <p> Our mission is to curate a <b>free and open</b> library of books. All books are in the public domain and can be corrected, pulled, and forked for any purpose.</p>
-        <p class ="subhead">-Collaborative</p>
-        <p>Programmers already have a tried-and-true way to collaborate on projects, <b>Git.</b> <a href="http://github.com">GitHub</a> allows this collaboration to be <b>open</b> and <b>social</b>, allowing anyone with a username to maintain our large collection of ebooks. </p>
-        <p class ="subhead">-Trackable</p>
-        <p>Leveraging the Git version control system, we can keep track of changes, track open issues with any book, and track contributions.</p>
-        <p class ="subhead">-Scriptable</p>
-        <p>Serving books the way we serve code has its benefits. We can use <b>Git</b> and the <b><a href="http://developer.github.com/v3/">GitHub API</a></b>, to do things like automatically generate epub and pdf files whenever there is a change stored in Git.</p>
-
-        <!-- Begin MailChimp Signup Form -->
-        <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-        <style type="text/css">
-          #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-          /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-             We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-        </style>
-        <div id="mc_embed_signup">
-        <form action="//github.us10.list-manage.com/subscribe/post?u=46e966504bd829085d3ac3aca&amp;id=c710d81de4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <div id="mc_embed_signup_scroll">
-          <h2>Subscribe to our announcement list</h2>
-        <div class="mc-field-group">
-          <label for="mce-EMAIL">Email Address </label>
-          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-        </div>
-        <p><a href="http://us10.campaign-archive2.com/home/?u=46e966504bd829085d3ac3aca&id=c710d81de4" title="View previous messages">View previous messages.</a></p>
-          <div id="mce-responses" class="clear">
-            <div class="response" id="mce-error-response" style="display:none"></div>
-            <div class="response" id="mce-success-response" style="display:none"></div>
-          </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;"><input type="text" name="b_46e966504bd829085d3ac3aca_c710d81de4" tabindex="-1" value=""></div>
-            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-            </div>
-        </form>
-        </div>
-        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-        <!--End mc_embed_signup-->
-
-        <h3 id="contributing">Interested in Contributing?</h3>
-        <p><b>Awesome!</b> For now there are a few things you can do depending on your interest and skill level. Firstly, if you find an error or typo in any of the books, report it in the 'Issues' tab on that repo.  If you would like to offer changes: fork, edit and create a Pull Request. If you would like to make suggestions, help in another way, or would like to get more involved, you can join the project <a href="https://groups.google.com/forum/#!forum/gitenberg-project">mailing list</a>.
-        <!--Read our <a href="ReadmeUrl">ReadMe</a>, learn how to <a href="GettingStartedUrl">Get Started</a>, or check out our <a href="LicenseUrl">License</a> to learn how to contribute. We're happy to have you.-->
-          
-        </p>
-
-        <h3 id="gutenberg">About <a href="http://www.gutenberg.org">Project Gutenberg?</a></h3>
-        <p>These books originate from the <b>fantastic</b> work of Project Gutenberg. Our goal is that changes here will eventually appear there.</p>
-        <blockquote>Project Gutenberg (PG) is a volunteer effort to digitize and archive cultural works, to "encourage the creation and distribution of eBooks". It was founded in 1971 by Michael S. Hart and is the oldest digital library. Most of the items in its collection are the full texts of public domain books. The project tries to make these as free as possible, in long-lasting, open formats that can be used on almost any computer. As of July 2012, Project Gutenberg claimed over 40,000 items in its collection.
-
-From Wikipedia, the free encyclopedia.</blockquote>
-
-
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-35069635-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-  </body>
+<footer>
+  A project of the <a href="https://ebookfoundation.org/">Free Ebook Foundation</a>,
+  a 501(c)(3) nonprofit that envisions a world where ebooks will be funded,
+  distributed and maintained for the benefit of all.
+</footer>
+</body>
 </html>
